@@ -35,6 +35,8 @@ body {
     justify-content: center;
     align-items: center;
     font-family: 'Kumbh Sans', sans-serif;
+    padding: 5%;
+    overflow: hidden;
 }
 
 #backgroundImage {
@@ -61,11 +63,12 @@ body {
 
 main {
     width: 85%;
+    max-width: 300px;
     background-color: white;
     z-index: 10;
     border-radius: 1rem;
-    margin-top: 45%;
     position: relative;
+    top: 8rem;
 }
 
 #backgroundCardImage {
@@ -138,54 +141,4 @@ h1 {
 }
 
 /* Media Queries */
-
-@media screen and (min-width: 600px){
-    main {
-        width: 50%;
-        margin-top: 20%;
-    }
-    #imageTop {
-        top: -27rem;
-        left: -35rem;   
-    }
-    
-    #imageBottom {
-        bottom: -80rem;
-        right: -35rem;
-    }
-}
-
-@media screen and (min-width: 1000px){
-    main {
-        width: 30%;
-        margin-top: 10%;
-    }
-
-    #imageTop {
-        top: -30rem;
-        left: -25rem;   
-    }
-    
-    #imageBottom {
-        bottom: -85rem;
-        right: -20rem;
-    }
-}
-
-@media screen and (min-width: 1400px){
-    main {
-        width: 30%;
-        margin: 15% 0;
-    }
-
-    #imageTop {
-        top: -25rem;
-        left: -15rem;   
-    }
-    
-    #imageBottom {
-        bottom: -85rem;
-        right: -10rem;
-    }
-}
 
